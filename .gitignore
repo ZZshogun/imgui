@@ -4,6 +4,9 @@
 ## Dear ImGui artifacts
 imgui.ini
 
+## vs file
+*.vcxproj
+
 ## General build artifacts
 *.o
 *.obj
