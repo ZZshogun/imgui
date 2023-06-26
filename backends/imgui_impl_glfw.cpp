@@ -75,12 +75,12 @@
 #endif
 
 // GLFW
-#include "glfw/glfw3.h"
+#include "Cotton/vendor/glfw/glfw3.h"
 
 #ifdef _WIN32
 #undef APIENTRY
 #define GLFW_EXPOSE_NATIVE_WIN32
-#include "glfw/glfw3native.h"   // for glfwGetWin32Window()
+#include "Cotton/vendor/glfw/glfw3native.h"   // for glfwGetWin32Window()
 #endif
 #ifdef __APPLE__
 #define GLFW_EXPOSE_NATIVE_COCOA
